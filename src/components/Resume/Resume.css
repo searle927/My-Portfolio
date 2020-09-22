@@ -1,0 +1,32 @@
+.resumetitle {
+    color: teal;
+    font-size: 19px;
+}
+.label {
+    color: #ff6e40;
+    font-size: 25px;
+}
+.resumeContainer {
+    margin: 1em 3em;
+    color: #741e18;
+}
+.form {
+    color: red;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.description {
+    text-align: right;
+}
+.paragraph {
+    color: #741e18;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+.course {
+    font-style: italic;
+    margin-left: 20px;
+}
+.schools {
+    margin: 0px;
+}

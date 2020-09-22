@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    color: #1e3d59;
+    font-size: 40px;
+}
+p {
+    color: #741e18;
+    margin: 0em 3em
+}
+.title {
+    color: #741e18;
+    font-size: 28px;
+}
+li {
+    color: #741e18;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.aboutMe {
+    font-size: 22px;
+}
+.container1, .container2, .container3 {
+    border: solid #741e18 2px;
+    text-align: center;
+    width:75vw;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 1em;
+    border-radius: 10%;
+}
+.icon {
+    width: 25vw;
+    margin-top: 2em;
+}
+.dbs {
+    list-style: none;
+    padding: 0px;
+}
+.smedia {
+    height:5vh;
+    margin-left: 1em;
+    margin-top: 1em;
+
+}
+
+.social {
+    text-align: right;
+    margin-right: 2em;
+}
+.pcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, minmax(5px, 1fr));
+    align-items: center;
+    gap: 1.3em
+}
+.project {
+    height: 30vh;
+    width: 40vw;
+    border-radius: 15px;
+    border: solid black 1px;
+}
+.portfolio {
+    text-align: center;
+}
+.contactContainer {
+    text-align: center;
+}
+.contact {
+    color: #1e3d59;
+    font-size: 40px;
+}
+
+@media screen and (min-width:1024px) {
+    .container1, .container2, .container3 {
+        display: grid;
+        width: 27vw;
+        text-align: center;
+    }
+    .skills {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+    }
+    .icon {
+        width: 18vw;
+        margin-left: 3em;
+    }
+    .project {
+        max-width: 400px;
+    }
+    /* .pcontainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    } */
+}

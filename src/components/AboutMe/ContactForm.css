@@ -1,0 +1,21 @@
+h2 {
+    color: lightblue;
+}
+.form-control {
+    width: 80vw;
+    height: 2em;
+    margin-bottom: 1em;
+    max-width: 800px;
+}
+textarea.form-control {
+    height: 10em;
+}
+.col-9 {
+    margin-bottom: 3em;
+}
+.btn {
+    border-radius: 10px;
+    color: black;
+    height: 3em;
+    width: 10em;
+}

@@ -73,7 +73,7 @@ function AboutMe() {
                 <a href="http://fragile-shirt.surge.sh/details"><img src="https://i.imgur.com/JILTucy.png" alt="" className="project"></img>
                 </a>
             
-                <a href="https://jovial-wing-ca574a.netlify.app/"><img src="https://i.imgur.com/y2g1n8j.png" alt="" className="project"></img>
+                <a href="https://codepen.io/Shai_E1/pen/YzwJwmg"><img src="https://i.imgur.com/uidtgC8.png" alt="" className="project"></img>
                 </a>
             
                 <a href="https://codepen.io/Shai_E1/pen/MWaMPWy"><img src="https://i.imgur.com/LMX7tEf.png?1" alt="" className="project"></img>

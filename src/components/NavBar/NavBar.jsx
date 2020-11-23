@@ -20,7 +20,11 @@ function Navigation(props) {
     <header>
       <div className="header">
         <Link to="/" class="R+S">
-          <h1 className="logo">Hello</h1>
+          {/* <h1 className="logo">Hello</h1> */}
+          <a href="/">
+                <img src="https://i.imgur.com/EbvdZgs.png" 
+                alt="" className="logo"></img>
+            </a> 
         </Link>
         <ul className="nav">
         <Link to="/" id="home" className="nav">
